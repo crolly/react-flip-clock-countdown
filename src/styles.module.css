@@ -129,8 +129,8 @@
 }
 
 .fcc__colon {
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-left: var(--fcc-separator-margin)px;
+  margin-right: var(--fcc-separator-margin)px;
   height: var(--fcc-digit-block-height);
   display: flex;
   flex-direction: column;
