@@ -81,6 +81,7 @@ function FlipClockCountdown(props: FlipClockCountdownProps) {
       '--fcc-background': digitBlockStyle?.background || digitBlockStyle?.backgroundColor,
       '--fcc-separator-size': convertToPx(separatorStyle?.size),
       '--fcc-separator-color': showSeparators ? separatorStyle?.color : 'transparent',
+      '--fcc-separator-margin': separatorStyle?.margin || 8,
       ...style
     };
 
